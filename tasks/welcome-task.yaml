@@ -1,0 +1,12 @@
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: welcome-to-tekton
+spec:
+  steps:
+    - name: hello
+      image: docker.io/library/busybox:1.35.0
+      command:
+        - echo
+      args:
+        - "Welcome to Kekton!"
