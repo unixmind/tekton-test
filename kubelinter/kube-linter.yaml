@@ -1,0 +1,4 @@
+# see https://docs.kubelinter.io/#/configuring-kubelinter
+
+checks:
+  addAllBuiltIn: true
